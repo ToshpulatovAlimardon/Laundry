@@ -1,0 +1,70 @@
+/* Raleway: "Raleway", sans-serif; */
+/* Muli: "Mulish", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* All */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Root */
+:root {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  --primary-color: #6785ff;
+}
+/* Link */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Heiding */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  color: #072366;
+  font-weight: 600;
+}
+/* primary btn */
+.primary-btn {
+  border-radius: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 16px 40px;
+}
+/* section title */
+.section-title {
+  text-align: center;
+  width: 100%;
+}
+.section-title span {
+  background-color: rgba(103, 133, 255, 0.1);
+  padding: 5px 17px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 22px;
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #6785ff;
+  border-radius: 30px;
+}
+.section-title h2 {
+  font-size: 40px;
+  color: #072366;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}

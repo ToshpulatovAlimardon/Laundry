@@ -1,0 +1,131 @@
+/* topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  background-color: azure;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px 5px #adadad9f;
+}
+/* topbar left */
+.topbar-left {
+  display: flex;
+  align-items: center;
+}
+/* logo */
+.topbar-logo img {
+  padding: 0 40px 0 50px;
+}
+/* navbar */
+.navbar a {
+  color: #0d2d3e;
+  font-weight: 700;
+  padding: 33px 21px;
+  font-size: 1rem;
+  position: relative;
+}
+.navbar a::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.3s;
+}
+.navbar a:hover::before {
+  width: 100%;
+}
+/* topbar right */
+.topbar-right {
+  display: flex;
+  align-items: center;
+}
+/* topbar tel */
+.topbar-tel img {
+  padding-right: 12px;
+  margin-right: 8px;
+  border-right: 2px solid #eee;
+  margin-right: 8px;
+}
+/* topbar tel number */
+.topbar-tel-number a {
+  padding: 32px 17px 32px 0;
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+/* topbar left button */
+.topbar-left-button a {
+  padding: 35px 25px 35px 25px;
+  background: var(--primary-color);
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+/* header */
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/header.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  filter: brightness(75%);
+  margin-top: 90px;
+}
+/* header desc */
+.header-desc {
+  width: 670px;
+}
+.header-desc h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 29px;
+  text-transform: capitalize;
+}
+.header-desc p {
+  font-size: 27px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+/* process */
+.process {
+  padding: 110px 0 20px;
+}
+/* process content */
+.process-content {
+  display: flex;
+  justify-content: space-between;
+}
+.process-item {
+  width: 33.333333%;
+  padding: 0 30px;
+  text-align: center;
+}
+.process-item img {
+  width: 105px;
+  margin: 70px auto 30px;
+}
+.process-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 21px;
+}
+.process-item p {
+  margin-bottom: 36px;
+  color: #57667e;
+  font-size: 1rem;
+  line-height: 1.875rem;
+}
