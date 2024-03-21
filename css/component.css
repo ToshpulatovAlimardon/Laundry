@@ -205,3 +205,52 @@
 .services-btn img {
   margin-right: 10px;
 }
+/* services testimonials */
+.services-testimonials {
+  padding: 110px 0;
+  text-align: center;
+  position: relative;
+}
+.services-testimonials-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-testimonials-img img:first-child {
+  width: 50px;
+  margin: 0 5px;
+  filter: opacity(50%);
+}
+.services-testimonials-img img:last-child {
+  width: 50px;
+  margin: 0 5px;
+  filter: opacity(50%);
+}
+.services-testimonials p,
+.services-testimonials span {
+  color: #1d2547;
+  font-size: 1.125rem;
+  line-height: 30px;
+}
+.services-testimonials p {
+  margin: 21px auto;
+}
+.services-star {
+  color: orange;
+  margin-bottom: 10px;
+}
+.services-carusel i {
+  font-size: 21px;
+  cursor: pointer;
+  padding: 10px;
+}
+.services-carusel i:first-child {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.services-carusel i:last-child {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
