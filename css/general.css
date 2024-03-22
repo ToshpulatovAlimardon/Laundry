@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 /* Root */
 :root {
@@ -68,4 +69,20 @@ h6 {
   font-weight: 600;
   line-height: 1.4;
   margin-bottom: 5px;
+}
+/* Up */
+.up i {
+  background: #6785ff;
+  height: 50px;
+  width: 50px;
+  right: 31px;
+  bottom: 18px;
+  position: fixed;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 48px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
 }

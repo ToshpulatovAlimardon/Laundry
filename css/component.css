@@ -315,3 +315,89 @@
   line-height: 30px;
   color: #10285d;
 }
+/* Home map */
+.home-map iframe {
+  width: 100%;
+  height: 650px;
+  padding: 130px 0 120px;
+}
+/* Footer */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+/* footer logo */
+.footer-logo {
+  width: 370px;
+}
+.footer-logo p {
+  color: #646d77;
+  font-size: 14px;
+  padding-right: 52px;
+  margin-bottom: 50px;
+  margin-top: 35px;
+  line-height: 1.8;
+}
+.footer-icons i {
+  color: #6785ff;
+  background: rgba(103, 133, 255, 0.08);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-icons i:hover {
+  background-color: #6785ff;
+  color: #fff;
+}
+/* Footer services */
+.footer-services {
+  width: 270px;
+}
+.footer-services h3,
+.footer-touch h3 {
+  color: #1d2547;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+.footer-services a,
+.footer-touch a {
+  color: #646d77;
+  font-weight: 300;
+  font-size: 0.875rem;
+  display: block;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+.footer-services a:hover,
+.footer-touch a:hover {
+  color: #6785ff;
+}
+/* Footer touch */
+.footer-touch {
+  width: 270px;
+}
+.footer-touch a[href*="tel"] {
+  font-size: 1.625rem;
+  color: #6785ff;
+  margin-bottom: 23px;
+}
+/* footer bottom */
+.footer-bottom {
+  height: 114px;
+  background-image: url("../img/achievement/bg.webp");
+  background-size: cover;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 70px;
+}
+.footer-bottom a {
+  color: #6785ff;
+}
