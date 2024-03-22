@@ -43,6 +43,7 @@ h6 {
   color: #fff;
   background-color: var(--primary-color);
   padding: 16px 40px;
+  display: inline-block;
 }
 /* section title */
 .section-title {
